@@ -1,0 +1,94 @@
+.feeldback {
+  position: relative;
+  overflow: hidden;
+
+}
+.feeldback::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  background-color: var(--main-color);
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
+}
+.feeldback .year {
+  margin: 20px auto;
+  width: 70px;
+  padding: 10px;
+  color: white;
+  background-color: var(--main-color);
+  position: relative;
+  z-index:3;
+  text-align: center;
+  border-radius: 10px 0 10px 0;
+  font-weight: bold;
+}
+.feeldback .left,
+.feeldback .right
+{
+width: calc(50% - 25px);
+background-color: #eff5ff;
+text-align: center;
+padding: 20px;
+position: relative;
+border-radius: 10px;
+line-height: 1.8;
+ color: #666;
+text-transform: capitalize;
+}
+.feeldback .left h3,
+.feeldback .right h3{
+font-weight: bold;
+margin-top: 10px;
+color: #1B2C51;
+}
+.feeldback .left {
+  float: left;
+}
+.feeldback .left::before {
+  right: -32px;
+}
+
+.feeldback .right {
+  float: right;
+}
+.feeldback .right::before {
+  left: -32px;
+}
+.feeldback .right::before ,
+.feeldback .left::before
+{
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 3px solid var(--main-color);
+  background-color: white;
+  border-radius: 50%;
+  top: 20px;
+}
+.clear-fix{
+  clear: both;
+}
+
+.feeldback .left .content::after,
+.feeldback .right .content::after
+{
+  content: '';
+  border-style: solid;
+  width: 0;
+  border-width: 10px;
+  height: 0;
+  top: 20px;
+  position: absolute;
+}
+.feeldback .left .content::after {
+  border-color: transparent transparent transparent #eff5ff;
+  right: -20px;
+}
+.feeldback .right .content::after{
+    border-color: transparent #eff5ff transparent transparent;
+    left: -20px;
+}

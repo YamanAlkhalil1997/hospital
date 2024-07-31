@@ -1,0 +1,28 @@
+.bullets {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  .up-bullets {
+    padding: 20px;
+    text-align: center;
+    li {
+      padding: 10px;
+      position: relative;
+      background-color: var(--main-color);
+      margin-bottom: 10px;
+      border-radius: 10px;
+      transition: 0.4s;
+    }:hover {
+      transform: translate(-10px);
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      cursor: default;
+    } :hover {
+      color: brown;
+    }
+  }
+}

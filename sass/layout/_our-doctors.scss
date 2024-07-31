@@ -1,0 +1,62 @@
+.our-doctors .doctors{
+    background-color: #eff5ff;
+    padding: 30px;
+  }
+  .our-doctors .doctors .doctor{
+    background-color: #eff5ff;
+    padding-bottom: 30px;
+  }
+  .overLay {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1000;
+    top: 0;
+  }
+  .pop-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1001;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  .pop-box img {
+    max-width: 100%;
+    height: 100%;
+    filter: blur(4);
+    
+  }
+  
+  .pop-box .closeButtun{
+    color: white;
+      position: absolute;
+      top: -15px;
+      left: -14px;
+      width: 50px;
+      height: 50px;
+      background-color: var(--main-color);
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-weight: bold;
+      font-size: 30px;
+      cursor: pointer;
+  }
+  .pop-box h1 {
+    color: var(--main-color);
+    background-color:#eff5ff;
+    text-transform: uppercase;
+  }

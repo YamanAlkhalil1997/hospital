@@ -1,0 +1,105 @@
+.setting {
+    position: fixed;
+    left: -200px;
+    top: 61px;
+    z-index: 3;
+    width: 200px;
+    background-color: #2c75de52;
+    min-height: 100vh;
+    transition: 0.4s;
+    .setting-icon {
+      position: absolute;
+      top: 68px;
+      background-color:var(--main-color);
+      width: 47px;
+      text-align: center;
+      border-radius: 0 10px 10px 0;
+      right: -47px;
+      cursor: pointer;
+    } i {
+      padding: 11px
+    }
+    .setting-content {
+      h4 {
+        color: white;
+      }
+      .color-lis {
+        li{
+          width: 50px;
+          height: 50px;
+          border-radius: 10px;
+          cursor: pointer;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+  
+  
+  /* color option */
+  .setting-content  {
+    .color-list {
+      .alt2-color {
+        background-color: #0463FA;
+        opacity: 0.5;
+       }
+       .alt-color {
+        background-color:#1b856f;
+        opacity: 0.5;
+      }
+      li.active{
+        opacity: 1;
+        border: 1px solid #fff;
+      }
+    }
+  }
+  /* color option */
+  /* imge option */
+  .setting-content {
+    .option-img
+     ul {
+      li{
+        width: 60px;
+        background-color: black;
+        margin: 5px;
+        color: white;
+        display: inline-block;
+        cursor: pointer;
+        opacity: 0.5;
+        :nth-child(1){
+          background-color: #1b856f;
+        }
+        :nth-child(2){
+          background-color: red;
+        }
+      }.active {
+        opacity: 1;
+      }
+     } 
+     .reset {
+      width: 178px;
+      border: none;
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      margin: 10px auto;
+      display: block;
+      cursor: pointer;
+      text-transform: capitalize;
+    
+    }
+    
+    
+   
+  }
+  .open {
+    left: 0;
+  }
+  /* imge option */
+  
+  
+ 
+  
+  
+ 

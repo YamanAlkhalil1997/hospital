@@ -1,0 +1,32 @@
+@use '../sass/layout/nav' as *;
+@use '../sass/layout/landing' as *;
+@use '../sass/layout/about' as *;
+@use '../sass/layout/features' as *;
+@use '../sass/layout/setting' as *;
+@use '../sass/layout/bullets' as *;
+@use '../sass/layout/services' as *;
+@use '../sass/layout/our-doctors' as *;
+@use '../sass/layout/tesimeule' as *;
+@use '../sass/layout/appoiment' as *;
+@use '../sass/layout/footer' as *;
+@use '../sass/component/title' as *;
+
+
+
+
+
+
+:root{
+  --main-color :  #0463FA;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+
+
+

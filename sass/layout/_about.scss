@@ -1,0 +1,102 @@
+.about-us {
+  overflow: hidden;
+  transition: 2s;
+  .about-header{
+    h1 {
+      color: var(--main-color);
+      text-transform: capitalize;
+      border: 1px solid #ccc;
+      width: fit-content;
+      padding: 10px;
+      border-radius: 20px;
+      position: relative;
+      z-index: 1;
+      color: var(--main-color);
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .hr {
+      hr {
+        margin: 0 0 5px 0;
+        color: var(--main-color);
+      }
+    }
+  } 
+}
+
+.about-us .about-header .hr {
+  hr:nth-child(1) {
+    width: 40%; 
+  }
+
+  hr:nth-child(2) {
+    width: 30%;
+  }
+
+  hr:nth-child(3) {
+    width: 20%;
+  }
+}
+
+
+
+.about-us .about-header h1::before{
+  content: '';
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width:0;
+  background-color: #0463FA;
+  border-radius: 20px;
+  z-index: -3;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: 0.6s;
+}
+.about-us .about-header h1:hover::before{
+  width: 100%;
+}
+.about-us .about-header .list-icon li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.about-us .about-header .list-icon li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 5px;
+  border: 1px solid var(--main-color);
+}
+.about-us .about-header .list-icon li::after{
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: var(--main-color);
+  top: 1px;
+  
+
+}
+.about-us .about-header h1:hover{
+  color: white;
+
+}
+
+.about-us .about-header-img img {
+  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  padding: 20px;
+}
+
+@media (max-width:767px) {
+  .about-us .about-header-img img {
+    clip-path: none
+
+  }
+}

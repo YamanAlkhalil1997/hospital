@@ -1,0 +1,39 @@
+.landing {
+    background-image: url(../img/3.png);
+    background-size: cover;
+    position: relative;
+    min-height: 91vh;
+    background-position: center;
+  }
+  svg {
+    position: absolute;
+    bottom: -56px;
+    margin-bottom: 30px;
+    path {
+      fill: #fff;
+    }
+  }
+
+  .intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    p {
+      letter-spacing: 2px;
+    }
+    span {
+      color: var(--main-color);
+    }
+  }
+  
+  
+  

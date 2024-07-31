@@ -1,0 +1,41 @@
+
+  .our-services .service {
+    .icon-service {
+    margin-bottom: 10px;
+    position: absolute;
+    top: -40px;
+    font-size: 50px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-bottom: 1px solid var(--main-color);
+  }
+    div {
+      background-color: #eff5ff;
+      color:#8D8E92;
+      padding: 40px;
+      position: relative;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      opacity: 0;
+      transition: 2s;
+      left: -900px;
+      h4 {
+        color: var(--main-color);
+      }
+    }:hover{
+      transform: translatey(-10px);
+    }
+
+  }
+
+  
+  
+ 
+  
+  
+ 
+  

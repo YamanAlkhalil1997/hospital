@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>al-rahma klinik</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <Link rel="stylesheet" href="css/test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/test-dist.css">
+</head>
+
+<body>
+    <div class="setting" id="sett" style="border: 1px solid #ddd;">
+        <div class="setting-icon">
+            <i class="fa fa-gear" id="toggle"></i>
+        </div>
+        <div class="setting-content">
+            <div class="option-box p-3">
+                <h4 class="m-0 text-center">colors</h4>
+                <ul class="color-list list-unstyled  p-0 d-flex gap-2 justify-content-center ">
+                    <li class="alt2-color active" data-color="#0463FA"></li>
+                    <li class="alt-color" data-color="#1b856f"></li>
+                </ul>
+            </div>
+            <div class="option-img">
+                <h4 class="fs-6 text-center">Randome Backgrounds</h4>
+                <ul class="list-unstyled text-center img-option">
+                    <li class="yes active" data-background="yes">Yes</li>
+                    <li class="no" data-background="no">No</li>
+                </ul>
+            </div>
+            <div class="option-img bullet-option">
+                <h4 class="fs-6 text-center">show bullets</h4>
+                <ul class="list-unstyled text-center img-option">
+                    <li class="yes active" data-display="show">show</li>
+                    <li class="no" data-display="hidden">hidden</li>
+                </ul>
+            </div>
+            <button class="reset">reset all option</button>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize fs-3" href="#">
+                <i class="fa-regular fa-hospital"></i> al-rahma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section=".about-us">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section=".features">Features </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section=".our-services">our services </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section=".our-doctors">our doctors </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section=".feeldback">Testimonial </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- start landig -->
+    <div class="landing">
+        <div class="intro ">
+            <h1>welcome to <span>al-rahma</span> hospital</h1>
+            <p>good health is the root of all heppiness</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3f4f5" fill-opacity="1"
+                d="M0,32L40,53.3C80,75,160,117,240,149.3C320,181,400,203,480,197.3C560,192,640,160,720,138.7C800,117,880,107,960,96C1040,85,1120,75,1200,74.7C1280,75,1360,85,1400,90.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!-- end landig -->
+    <!-- start about us -->
+    <div class="container">
+        <div class="about-us pt-5 pb-5 d-flex align-items-center justify-content-between flex-wrap position-relative">
+            <div class="about-header col-md-6">
+                <h1>about us</h1>
+                <section class="hr">
+                    <hr>
+                    <hr>
+                    <hr>
+                </section>
+                <h4>Why You Should Trust Us? Get Know About Us!</h4>
+                <p>
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                <ul class="list-unstyled list-icon">
+                    <li>Quality health care </li>
+                    <li>Only Qualified Doctors</li>
+                    <li>Medical Research Professionals</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="about-header-img col-md-6">
+                <img class="img-fluid" src="img/about-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- start features -->
+    <div class="container">
+        <div
+            class="about-us pt-5 pb-5 d-flex align-items-center justify-content-between flex-wrap position-relative features">
+            <div class="about-header col-md-6">
+                <h1>features</h1>
+                <section class="hr">
+                    <hr>
+                    <hr>
+                    <hr>
+                </section>
+                <h4>Why Choose Us ? </h4>
+                <p>
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+
+            </div>
+            <hr>
+            <div class="about-header-img col-md-6">
+                <img class="img-fluid" src="img/about-2.jpg" alt="">
+            </div>
+            <ul class="list-unstyled list-icon row flex-wrap w-100 justify-content-center gap-3">
+                <div class="feature col-5 p-4">
+                    <i class="fa-solid fa-user-doctor fs-1"></i>
+                    <div>
+                        Experience Doctors
+                    </div>
+                </div>
+                <div class="feature col-5 p-4 ">
+                    <i class="fa-solid fa-star fs-1"></i>
+                    <div>
+                        Quality Services
+                    </div>
+                </div>
+                <div class="feature col-5 p-4 ">
+                    <i class="fa-solid fa-headphones  fs-1"></i>
+                    <div>
+                        24 hours
+                    </div>
+                </div>
+                <div class="feature col-5 p-4 ">
+                    <i class="fa fa-comment-medical  fs-1"></i>
+                    <div>
+                        Positive Consultation
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start serivces -->
+    <div class="container pt-5 pb-5">
+        <div class="our-services">
+            <div class="title">
+                <h1> our services</h1>
+            </div>
+            <div class="row gap-5 mt-5 justify-content-center service">
+                <div class="cardiology col-lg-4 col-md-6 text-center">
+                    <section class="icon-service">
+                        <i class="fa-solid fa-heart-pulse "></i>
+                    </section>
+                    <h4 class="w-100">Cardiology</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tempora.</p>
+                </div>
+                <div class="cardiology col-lg-4 col-md-6 text-center">
+                    <section class="icon-service">
+                        <i class="fa fa-x-ray"></i>
+                    </section>
+                    <h4 class="w-100">Pulmonary</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tempora.</p>
+                </div>
+                <div class="cardiology col-lg-4 col-md-6 text-center">
+                    <section class="icon-service">
+                        <i class="fa fa-brain  "></i>
+                    </section>
+                    <h4 class="w-100">Neurology</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tempora.</p>
+                </div>
+                <div class="cardiology col-lg-4 col-md-6 text-center">
+                    <section class="icon-service">
+                        <i class="fa fa-wheelchair "></i>
+                    </section>
+                    <h4 class="w-100">Orthopedics</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tempora.</p>
+                </div>
+                <div class="cardiology col-lg-4 col-md-6 text-center">
+                    <section class="icon-service">
+                        <i class="fa fa-tooth  "></i>
+                    </section>
+                    <h4 class="w-100">Dental Surgery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, tempora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end serivces -->
+    <!-- start bullets navigation -->
+    <div class="bullets position-fixed">
+        <ul class="list-unstyled up-bullets">
+            <li><a href="#" data-section=".navbar">Home</a></li>
+            <li><a href="#" data-section=".about-us">About us</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".our-services">Our Services</a></li>
+            <li><a href="#" data-section=".our-doctors">Our Doctors</a></li>
+            <li><a href="#" data-section=".feeldback">Testimonial</a></li>
+            <li><a href="#" data-section=".appoiment">Appointment</a></li>
+        </ul>
+    </div>
+    <!-- end bullets navigation -->
+    <!-- start Our Experience Doctors -->
+    <div class="our-doctors pt-5 pb-5">
+        <div class="container">
+            <div class="title">
+                <h1 class="text-capitalize text-center">our doctors</h1>
+            </div>
+            <div class="row doctors justify-content-center ">
+                <div class="doctor col-md-4 ">
+                    <img src="img/team-1.jpg" class="img-fluid rounded" alt="" data-name="Dr: rami">
+                </div>
+                <div class="doctor col-md-4">
+                    <img src="img/team-2.jpg" class="img-fluid rounded" alt="" data-name="Dr: ahmed">
+                </div>
+                <div class="doctor col-md-4">
+                    <img src="img/team-3.jpg" class="img-fluid rounded" alt="" data-name="Dr: serawe">
+                </div>
+                <div class="doctor col-md-4">
+                    <img src="img/team-4.jpg" class="img-fluid rounded" alt="" data-name="Dr: weq">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Our Experience Doctors -->
+
+    <!-- start feeldback -->
+    <div class="container  pt-5 pb-5">
+        <h1 class="text-center mb-3 w-100 title">Testimonial</h1>
+        <div class="feeldback">
+            <div class="year">2024</div>
+            <div class="left mb-5">
+                <div class="content">
+                    <img src="img/testimonial-1.jpg" class="img-fluid rounded-5" alt="">
+                    <h3>hala</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias dicta corporis aut
+                        quis quas deserunt accusamus aperiam illo aspernatur.</p>
+                </div>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="right">
+                <div class="content">
+                    <img src="img/testimonial-2.jpg" class="img-fluid rounded-5" alt="">
+                    <h3>rami</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae voluptates vel rerum aut
+                        magni nemo officiis nihil dicta necessitatibus obcaecati.</p>
+                </div>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="left">
+                <div class="content">
+                    <img src="img/testimonial-3.jpg" class="img-fluid rounded-5" alt="">
+                    <h3>rani</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias dicta corporis aut
+                        quis quas deserunt accusamus aperiam illo aspernatur.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end feeldback! -->
+
+    <!-- start Appointment -->
+    <div class="container">
+        <div class="appoiment m-auto">
+            <h1 class="title">appoiment</h1>
+            <form action="" class="d-flex justify-content-between flex-wrap">
+                <div class="left">
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Your number">
+                    <input type="email" placeholder="Your Email">
+                    <input type="date" placeholder="Your Date">
+                </div>
+                <div class="right ">
+                    <textarea placeholder="Describe your problem"></textarea>
+                    <button>book Appoiment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end Appointment -->
+    <!-- start footer -->
+    
+    
+    <footer class="mt-5 p-4">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Address</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> 123 syrian, allepo,</p>
+                    <p><i class="fa-solid fa-phone"></i> +9718582923</p>
+                    <p><i class="fa-solid fa-envelope"></i> yamanalkhaik@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-arrow-right"></i>cardiology</li>
+                        <li><i class="fa-solid fa-arrow-right"></i>Pulmonary</li>
+                        <li><i class="fa-solid fa-arrow-right"></i>neurology</li>
+                        <li><i class="fa-solid fa-arrow-right"></i>orthopedics</li>
+                        <li><i class="fa-solid fa-arrow-right"></i>laboratory</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>quick links</h5>
+                    <ul class="list-unstyled links-footer">
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".navbar">Home</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".about-us">About us</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".features">Features</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".our-services">OurServices</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".our-doctors">OurDoctors</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".feeldback">Testimonial</a></li>
+                        <li><i class="fa-solid fa-arrow-right"></i><a href="#" data-section=".appoiment">Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 email">
+                    <h5>Newsletter</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, amet</p>
+                    <div class="email">
+                        <input type="email" placeholder="type your email">
+                        <button>sign up</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <span>design by : yaman alkhalil</span>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/function.js"></script>
+</body>
+
+</html>

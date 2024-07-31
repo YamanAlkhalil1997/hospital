@@ -1,0 +1,29 @@
+.navbar {
+    background-color:var(--main-color) !important;
+  
+   
+  }
+  .btn {
+    border-color: white;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item{
+    position: relative;
+  }
+  
+
+  .navbar-nav .nav-item a ,
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .navbar-brand:hover {
+    color:#32B87D;
+  }
+  .drop li a {
+    color: #0463FA !important
+  }
+  
+  
